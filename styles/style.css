@@ -10,6 +10,10 @@ body {
     background-color: orange;
     color: white;
   }
+  .main-h{
+    font-size: 46px;
+    font-weight: 700;
+  }
 
   /* Nav Styles */
   .nav-button{
@@ -104,8 +108,206 @@ li{
     align-items: center;
 }
 /* Main 1 Styles */
+.main-body{
+    width: 1440px;
+    height: 1900px; 
+    background: linear-gradient(to top ,rgb(239, 192, 106), white);
+    align-items: center;
+    margin: 0 auto;
+    background-size: cover;  
+    background-position: center;  
+}
+.main-1{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px
+}
+.main-imgs-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.m-sec1{
+    width: 368px;
+    height: 476px;
+    background-image: linear-gradient(rgb(172, 231, 254),white);
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.m-sec2{
+    width: 368px;
+    height: 476px;
+    background-image: linear-gradient(rgb(240, 219, 150),white);
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.m-sec3{
+    width: 368px;
+    height: 476px;
+    background-image: linear-gradient(rgb(234, 166, 255),white);
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.m-sec1-link{
+    text-decoration: none;
+    color: skyblue;
+    margin-top: 65px;
+}
+.m-sec2-link{
+    text-decoration: none;
+    color: orange;
+    margin-top: 65px;
+}
+.m-sec3-link{
+    text-decoration: none;
+    color: #8700FF;
+    margin-top: 65px;
+}
+.btn-main{
+    display: flex;
+    gap: 10px;
+}
+.btn-m{
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top:50px ;
+    background-color: orange;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+/* Main - 2 */
+.main-2{
+    width: 1440px;
+    height: 1018px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 100px;
 
 
+}
+.container{
+    width: 1160px;
+    height: 631px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.big-img{
+    width: 541px;
+    height: 631px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    background-color: white;
+}
+.img-big{
+    position: relative;
+    border-radius: 16px;
+}
+.overflow{
+    height: 48px;
+    width: 175px;
+    border-radius: 48px;
+    border: none;
+    -webkit-border-radius: 48px;
+    -moz-border-radius: 48px;
+    -ms-border-radius: 48px;
+    -o-border-radius: 48px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    
+}
+.overflow1{
+    background-color: #3cd8e8;
+    position: absolute;
+    bottom: -15px;
+    left: 40px; 
+}
+.overflow2{
+    background-color: #95B226;
+    position: absolute;
+    bottom: -12px;
+    left: 30px;
+}
+.overflow3{
+    background-color: #5D58F0;
+    position: absolute;
+    bottom: -12px;
+    left: 30px;
+}
+.img-s{
+    position: relative;
+    
+}
+.main-p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.main2-text{
+    padding: 20px;
+}
+.small-container{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 22px;
+}
+.s-cont-1{
+    width: 291px;
+    height: 302px;
+    background-color: white;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+.m2-sec2-text{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+}
 /* Footer Style */
 footer{
     background-color: #01acfd;
